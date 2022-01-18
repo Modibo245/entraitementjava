@@ -14,7 +14,7 @@ public class Arrangement {
     int bb= 2;
     String s="";
   while (hs.size() !=dn.a(b,bb) ) {
-    while (s.length()<b){
+    while (s.length()<bb){
      int n= (int) (b*Math.random());
      if (!s.contains(""+tab[n]))
      s=s+tab[n];

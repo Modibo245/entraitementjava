@@ -11,7 +11,7 @@ public class Tirage {
      Denombrement dn= new Denombrement();
     char[] tab ={'0','1'};
     int b= tab.length;
-    int bb= 4;
+    int bb= 8;
     int l=tab.length;
     String s="";
   while (hs.size() != dn.pu(b, bb)) {
