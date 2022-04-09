@@ -9,9 +9,9 @@ public class Tirage {
   public static void main(String[] args) {
      HashSet<String> hs= new HashSet<String>();
      Denombrement dn= new Denombrement();
-    char[] tab ={'0','1'};
+    char[] tab ={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
     int b= tab.length;
-    int bb= 8;
+    int bb= 4;
     int l=tab.length;
     String s="";
   while (hs.size() != dn.pu(b, bb)) {
@@ -26,8 +26,8 @@ public class Tirage {
     int c=1; 
     Iterator<String> it= hs.iterator();
     while(it.hasNext()){
-    
-      System.out.println(c+". Tirage : "+it.next());
+    	//c+". Tirage : "+
+      System.out.println(it.next());
       c++;
     }
   }

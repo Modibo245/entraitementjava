@@ -18,8 +18,6 @@ public class Arrangement {
      int n= (int) (b*Math.random());
      if (!s.contains(""+tab[n]))
      s=s+tab[n];
-     
-     
      }
      hs.add(s);
      s="";
